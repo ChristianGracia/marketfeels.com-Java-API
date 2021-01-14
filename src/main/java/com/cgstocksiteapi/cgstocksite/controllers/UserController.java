@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @GetMapping(path="/users/")
+    @GetMapping(path="/users")
     public String sendMessage() {
         return "hi";
 
