@@ -36,3 +36,14 @@ confirm with
 
 `docker run -ti --rm -p 8080:8080 \
   gcr.io/$GOOGLE_CLOUD_PROJECT/java-api:v1`
+  
+  
+  create deployment
+
+  
+  `kubectl create deployment hello-java \
+  --image=gcr.io/$GOOGLE_CLOUD_PROJECT/hello-java:v1`
+  
+    Create kubernetes service
+  
+  `kubectl create service loadbalancer java-api --tcp=8080:8080`
