@@ -41,8 +41,8 @@ confirm with
   create deployment
 
   
-  `kubectl create deployment hello-java \
-  --image=gcr.io/$GOOGLE_CLOUD_PROJECT/hello-java:v1`
+  `kubectl create deployment java-api \
+  --image=gcr.io/$GOOGLE_CLOUD_PROJECT/java-api:v1`
   
     Create kubernetes service
   
