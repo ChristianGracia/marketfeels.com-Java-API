@@ -8,6 +8,8 @@ public class CgStockSiteApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CgStockSiteApplication.class, args);
+
+
 	}
 
 }
