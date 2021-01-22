@@ -47,3 +47,21 @@ confirm with
     Create kubernetes service
   
   `kubectl create service loadbalancer java-api --tcp=8080:8080`
+  
+  **sending to google cloud container registry**
+  
+  build
+  
+  `docker build -t java-api .`
+  
+  tag
+  
+  `docker tag java-api us.gcr.io/marketfeels/java-api:latest`
+  
+  push
+  
+  `docker push us.gcr.io/marketfeels/java-api`
+  
+  
+  
+  
