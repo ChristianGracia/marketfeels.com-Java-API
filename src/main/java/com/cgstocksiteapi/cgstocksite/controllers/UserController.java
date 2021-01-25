@@ -7,6 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
+    @GetMapping(path="/")
+    public String sendMessage2() {
+
+        return "///";
+
+    }
+
+
     @GetMapping(path="/api")
     public String sendMessage() {
 //        URL url = null;
